@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    >
+
+
+<group
+android:id="@+id/group2"
+    >
+
+    <item
+        android:id="@+id/nav_orders"
+        android:title="My Orders"
+        android:icon="@drawable/my_orders"
+        />
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="My Account"
+        android:icon="@drawable/my_pro"
+        />
+
+    <item
+        android:id="@+id/nav_location"
+        android:title="Delivery Address"
+        android:icon="@drawable/ic_baseline_location_on_24"/>
+    <item
+        android:id="@+id/nav_payment"
+        android:title="Payment Methods"
+        android:icon="@drawable/wallet"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:title="Contact Us"
+        android:icon="@drawable/mail"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/nav_help"
+        android:title="Helps and FAQs"
+        android:icon="@drawable/help"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        />
+</group>
+</menu>

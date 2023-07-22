@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yousef.food_hub_final_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Food_Hub_final_project"
+        tools:targetApi="31">
+        <activity
+            android:name=".Secondaryِ_Activities.Scanner_Card"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB8Zp_xB5VjC-sgVqsPeLxOyxRnfvqCasE" />
+
+        <activity
+            android:name=".Secondaryِ_Activities.GetLocation"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.SendReview"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.AddCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Product_detail"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.ItemDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivities.MACActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivities.KFCActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivities.StarbucksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivities.PizzaHutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrandsActivities.DominosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.DeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondaryِ_Activities.MyOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Food_Category_five"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Food_Category_four"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Food_Category_three"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Food_Category_two"
+            android:exported="false" />
+        <activity
+            android:name=".Food_Categories.Food_Category_one"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Home_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Registration_phone"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.ReseatPass"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.VerifacationCode_phone"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Login"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Onboarding_three"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Onboarding_two"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Onboarding_one"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

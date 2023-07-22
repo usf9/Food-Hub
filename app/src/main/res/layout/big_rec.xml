@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:background="@color/background"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/background"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/item_img"
+                android:layout_width="250dp"
+                android:layout_height="170dp"
+                android:cropToPadding="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/capuccino"
+                app:riv_corner_radius="25dp"
+
+                ></com.makeramen.roundedimageview.RoundedImageView>
+
+            <ImageView
+                android:id="@+id/item_rec1"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rec_btn"
+                android:src="@drawable/rectan"
+                android:textSize="12dp"></ImageView>
+
+            <TextView
+                android:id="@+id/item_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/item_rec1"
+                android:layout_alignTop="@+id/item_rec1"
+                android:layout_alignEnd="@+id/item_rec1"
+                android:layout_alignBottom="@+id/item_rec1"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="7dp"
+                android:text="4.5 ⭐ ️"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12dp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/like"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/item_rate"
+                android:src="@drawable/wite_heart"></ImageView>
+
+            <TextView
+                android:id="@+id/item_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_img"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="McDonald’s"
+                android:textColor="@color/balck"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <ImageView
+                android:id="@+id/delivery_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/item_title"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/delivery"></ImageView>
+
+            <TextView
+                android:id="@+id/delivery_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_title"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/delivery_icon"
+                android:text="free delivery"
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/time_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/item_title"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@+id/delivery_price"
+                android:src="@drawable/time_icon"></ImageView>
+
+            <TextView
+                android:id="@+id/delivery_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_title"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="14dp"
+                android:layout_toEndOf="@+id/time_icon"
+                android:text="10 - 15 min"
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/chip1"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/delivery_icon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/rec_btn"
+                android:backgroundTint="@color/gray_btn"
+                android:text="     "
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck"></TextView>
+
+            <TextView
+                android:id="@+id/chip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/delivery_icon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/chip1"
+                android:background="@drawable/rec_btn"
+                android:backgroundTint="@color/gray_btn"
+                android:text="    "
+                android:textSize="15sp"
+                tools:ignore="SpeakableTextPresentCheck"></TextView>
+
+            <TextView
+                android:id="@+id/item_rate"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/delivery_icon"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/chip2"
+                android:background="@drawable/rec_btn"
+                android:backgroundTint="@color/gray_btn"
+                android:text="    "
+                android:textSize="15sp"
+
+                tools:ignore="SpeakableTextPresentCheck"></TextView>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

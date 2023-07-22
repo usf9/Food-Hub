@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Food_Hub_final_project</string>
+
+
+    <string name="maintitle">Dhaka, Banassre</string>
+    <string name="txt1">Browse your  menu and order directly</string>
+    <string name="txt2">Our app can send you everywhere, even space. For only $2.99 per month</string>
+    <string name="txt1_2">Even to space with us! Together</string>
+    <string name="txt2_2">Our app can send you everywhere, even space. For only $2.99 per month</string>
+    <string name="txt1_3">Pickup delivery at your door</string>
+    <string name="txt2_3">Our app can send you everywhere, even space. For only $2.99 per month</string>
+    <!-- to toggle the open close button of the navigation drawer -->
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+    <string name="mc_title" translatable="false">MACdonald\'s</string>
+    <string name="dominos_title" translatable="false">Domenos Pizza</string>
+    <string name="kintaki_title" translatable="false">KFC</string>
+    <string name="hut_title" translatable="false">Pizza hut</string>
+    <string name="star_title" translatable="false">StarBucks</string>
+    <string name="k1_des" translatable="false"> meal chicken with potato</string>
+    <string name="k2_des" translatable="false"> burger chicken with potato</string>
+    <string name="mc1" translatable="false">Mcdonald\'s meal chicken With potato</string>
+    <string name="mc2" translatable="false">Mcdonald\'s meal chicken burger With potato</string>
+    <string name="mc3" translatable="false">Mcdonald\'s meal baby chicken burger With potato with a toy (Happy Meal)</string>
+    <string name="hut1" translatable="false">Pizza pepperoni with shatna </string>
+    <string name="hut2" translatable="false">Pizza hotdog with sous </string>
+    <string name="hut3" translatable="false">Pizza Mushroom </string>
+    <string name="drink1" translatable="false">Drink Starbucks High Quality </string>
+    <string name="drink2" translatable="false">" Starbucks High Quality 220ml"</string>
+    <string name="price1" translatable="false">40$</string>
+    <string name="price2" translatable="false">235$</string>
+    <string name="price3" translatable="false">10$</string>
+    <string name="price4" translatable="false">535$</string>
+    <string name="price5" translatable="false">70$</string>
+    <string name="price6" translatable="false">15$</string>
+    <string name="price7" translatable="false">112.5$</string>
+    <string name="chicken" translatable="false">Chicken</string>
+    <string name="burger" translatable="false">Burger</string>
+    <string name="fast" translatable="false">Fast</string>
+    <string name="drink" translatable="false">Drink</string>
+    <string name="pizza" translatable="false">Pizza</string>
+    <string name="rate1" translatable="false">4.5 ⭐</string>
+    <string name="rate2" translatable="false">3.5 ⭐</string>
+    <string name="rate3" translatable="false">3.5 ⭐</string>
+    <string name="rate4" translatable="false">2 ⭐</string>
+    <string name="time1" translatable="false">10 - 15 min</string>
+    <string name="time2" translatable="false">20 - 30 min</string>
+    <string name="time3" translatable="false">30 - 60 min</string>
+    <string name="nulll" translatable="false"> .</string>
+    <string name="free" translatable="false">free delivery</string>
+    <string name="b1" translatable="false">KFC meal chicken burger with potato High Quality you can test it bro</string>
+    <string name="b2" translatable="false">KFC Burger meal chicken burger With potato 200 calories 200mi from the moon  </string>
+    <string name="b3" translatable="false">KFC Bugger  meal chicken burger very well </string>
+    <string name="d1" translatable="false">Donut chocolate With potato High Quality over the moon </string>
+    <string name="d2" translatable="false">Donut chocolate with milk 200 calories high With potato High Quality </string>
+    <string name="d" translatable="false">Donut</string>
+    <string name="h" translatable="false">HotDog</string>
+    <string name="hot" translatable="false"> HotDog  Burger meal chicken burger With potato 200 calorie 120gm </string>
+    <string name="hot2" translatable="false">Hotdog Mcdonald\'s Burger meal chicken burger With potato 200</string>
+    <string name="hot3" translatable="false">Hotdog Hot Burger meal chicken burger With potato 200 calories 200mi</string>
+    <string name="y" translatable="false">$</string>
+</resources>
