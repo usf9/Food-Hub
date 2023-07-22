@@ -27,3 +27,20 @@ If you have any questions or issues with the Food Hub app, please reach out to o
 
 
 Thank you for your interest in the Food Hub app. We look forward to bringing you delicious meals right to your doorstep soon!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/usf9/Food-Hub/assets/119720950/ad8273d1-8251-49bd-9552-125a211a9bc2
+
