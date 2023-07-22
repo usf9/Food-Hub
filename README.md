@@ -22,7 +22,7 @@ If you'd like to contribute to the Food Hub app, feel free to submit a pull requ
 
 ## Support
 
-If you have any questions or issues with the Food Hub app, please reach out to our customer support team for assistance. You can contact us through email, phone, or in-app messaging.
+If you have any questions or issues with the Food Hub app, please reach out to our customer support team for assistance. You can contact us through yousefabdallah9999@gmail.com, +201147147001.
 
 
 
